@@ -1,0 +1,26 @@
+---
+label: Elements
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: field_group
+  name: sitemap
+  label: sitemap
+  fields:
+  - type: number
+    name: priority
+    label: priority
+  - type: datetime
+    name: lastmod
+    label: lastmod
+  - type: text
+    name: changefreq
+    label: changefreq
